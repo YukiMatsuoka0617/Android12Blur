@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="transparameter">#cfffffff</drawable>
+
+    <style name="Theme.TranslucentBackground" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/transparameter</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowNoTitle">true</item>
+<!--        <item name="android:windowBlurBehindEnabled">true</item>-->
+<!--        <item name="android:windowBlurBehindRadius">0sp</item>-->
+<!--        <item name="android:windowBackgroundBlurRadius">0sp</item>-->
+    </style>
+</resources>
